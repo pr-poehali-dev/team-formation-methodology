@@ -272,19 +272,11 @@ const Index = () => {
 
       <footer className="bg-foreground text-white py-12 px-4">
         <div className="container mx-auto max-w-5xl">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            <div>
-              <h3 className="text-xl font-bold mb-3">Ведущие занятия</h3>
-              <p className="text-white/80 mb-1">Сергей Егоров</p>
-              <p className="text-white/80">Инна Вольская</p>
-            </div>
-            <div className="text-left md:text-right">
-              <p className="text-white/60 text-sm mb-2">Контакты</p>
-              <a href="tel:+79265624239" className="text-xl font-semibold hover:text-primary transition-colors flex items-center gap-2">
-                <Icon name="Phone" size={20} />
-                8 926 562 42 39
-              </a>
-            </div>
+          <div className="text-center">
+            <p className="text-white/80 mb-2">Это учебный проект</p>
+            <p className="text-white/60 text-sm">
+              Демонстрация методики формирования эффективной команды
+            </p>
           </div>
           <div className="mt-8 pt-6 border-t border-white/10 text-center text-white/60 text-sm">
             © 2025 Методика формирования эффективной команды
